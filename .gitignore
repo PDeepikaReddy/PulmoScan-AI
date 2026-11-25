@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+__pycache__/
+.venv/
+
+# Data & models (large / generated)
+data/
+models/*.keras
+# Uploaded images
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Kaggle credentials — NEVER commit
+kaggle.json
+.kaggle/
+
+# Logs / OS
+install_log.txt
+.DS_Store
+Thumbs.db
